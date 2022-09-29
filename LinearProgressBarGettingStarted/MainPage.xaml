@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LinearProgressBarGettingStarted.MainPage"
+             xmlns:progressBar="clr-namespace:Syncfusion.Maui.ProgressBar;assembly=Syncfusion.Maui.ProgressBar">
+
+
+    <ContentPage.Content>
+        <Grid Margin="10">
+            <progressBar:SfLinearProgressBar Progress="75"
+                                             SegmentCount="4"
+                                             TrackFill="#33ffbe06" 
+                                             ProgressFill="#FFffbe06"
+                                             IsIndeterminate="False"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
